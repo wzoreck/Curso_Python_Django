@@ -23,7 +23,7 @@ class Conta(ABC):
             if not isinstance(saldo, (int, float)):
                 raise ValueError("Não é um número")
             self._saldo = saldo
-        
+
         def depositar(self, valor):
             if not isinstance(valor, (int, float)):
                 raise ValueError("Não é um número")

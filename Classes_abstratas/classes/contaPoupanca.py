@@ -6,4 +6,5 @@ class ContaPoupanca(Conta):
             print('Saldo insuficiente')
             return
         self._saldo -= valor
-        self.ver_saldo()
+        print(f'Saldo: {self._saldo}')
+    
